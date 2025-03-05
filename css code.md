@@ -11,3 +11,14 @@ const styles = {
     padding: "20px",
   },
 };
+add to css:
+.bg-container {
+  background-image: url('https://example.com/your-image.jpg'); /* Use the actual URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
