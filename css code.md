@@ -22,3 +22,16 @@ add to css:
   justify-content: center;
   align-items: center;
 }
+
+add to jsx
+import "./styles.css";
+
+function ElectricLeaks() {
+  return (
+    <div className="bg-container">
+      <div style={styles.dashboard}>
+        {/* Your existing component content */}
+      </div>
+    </div>
+  );
+}
